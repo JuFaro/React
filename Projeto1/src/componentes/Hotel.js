@@ -3,17 +3,20 @@ import ac2 from '../img/ac2.jpg';
 import ac3 from '../img/ac3.jpg';
 import ac4 from '../img/ac4.jpg';
 
-const img1={
-    backgourndImage:`url('${ac1}')` 
+const img1 = {
+    backgroundImage:`url('${ac1}')`
 }
-const img2={
-    backgourndImage:`url('${ac2}')`
+
+const img2 = {
+    backgroundImage:`url('${ac2}')`
 }
-const img3={
-    backgourndImage:`url('${ac3}')`
+
+const img3 = {
+    backgroundImage:`url('${ac3}')`
 }
-const img4={
-    backgourndImage:`url('${ac4}')`
+ 
+const img4 = {
+    backgroundImage:`url('${ac4}')`
 }
 
 function Hotel(){
