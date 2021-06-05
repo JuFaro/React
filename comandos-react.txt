@@ -1,0 +1,38 @@
+instalando o yarn global
+
+npm install -g yarn
+
+Responsável por criar a estrutura inicial base para uma aplicação e React Js, com tudo que preciso para começar a programar
+
+npm install -g create-react-app
+
+Quando a instalação terminar o comando estará disponível para uso.
+
+npx create-react-app nome-projeto(nome do diretorio)
+
+responsável por iniciar o servidor local onde nossa aplicação irá ser simulada. Geralmente no navegador a url que será utilizada é a localhost:3000.
+
+yarn start
+
+REACT ROUTER
+Biblioteca React que facilita a navegação de componentes através de links, sem precisar dar refresh.
+
+create-react-app nome-projeto(nome do novo diretorio)
+
+Mantenha os arquivos (index.js, App.js (apenas function base), index.css(zerado)
+Para instalarmos a biblioteca:
+
+ yarn add react-router-dom
+
+BOOTSTRAP-REACT
+(https://react-bootstrap.github.io/getting-started/introduction/)
+npm install react-bootstrap bootstrap@4.6.0
+
+comandos usados:
+
+npm install -g create-react-app
+create-react-app nome-projeto
+yarn add react-router-dom
+npm install react-bootstrap bootstrap@4.6.0
+
+
