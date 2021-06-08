@@ -35,4 +35,17 @@ create-react-app nome-projeto
 yarn add react-router-dom
 npm install react-bootstrap bootstrap@4.6.0
 
+Crie um componente Parcelas.jsx
+
+ com formulário que tenha
+ produto
+ preco
+ parcelas (select) 6,8,10,12
+ 
+ crie um state que receba 
+ os dados atualizados no state
+ 
+ botao onde, ao clicar ele mostre
+ Os dados do produto e tambem o valor das parcelas
+
 
