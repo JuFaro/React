@@ -1,0 +1,22 @@
+1 - Crie um formulário que tenha um campo email, senha e senha novamente. Utilizando o useState para armazenar os dados do formulário, crie uma função que verifique se as senhas conferem ou não.
+ 2  - Crie um componente que Providencie um Contexto para um componente Consome.jsx. Um outro componente chamado NaoConsome.jsx tenta usar o Contexto mas não tem acesso. A informação passada no Provider deve ser um Objeto com 3 chaves de sua escolha com respectivos valores. Consome.jsx deve mostrar os dados recebidos do Contexto e NaoConsome tentar acessar sem sucesso.
+
+
+ // const [data, setData]= useState({
+    //     nome: "Nabuco",
+    //     rg: "11.222.333-4",
+    //     cpf: "111.222.333-44"
+
+1 - Crie um reducer que realize as seguintes operações no estado com valores de a, b e resultado.  O Deve ser exibido os valores de a, b e resultado. As operações são: 
+•	Soma 
+•	Subtração
+•	Divisão
+•	Multiplicação
+•	Resto da divisão
+•	A elevado a b
+o resultado será o estado a ser alterado
+
+2- Crie um formulário que tenha nome, email e senha. Altere o estado deles e utilizando useMemo Force o usuário escrever no input de nome o valor Jubileu, se for escrito diga Aeee Jubileu rsrsrs. Senão diga Quem? Detalhe ao digitar valores em email e senha a função vinculada a useMemo não deve ser invocada. 
+
+3- Crie um componente chamado PaiCallback onde ele terá dois componentes filhos (CampoNome) e (CampoEmail). PaiCallback deve ter dois estados (nome, email) onde cada filho irá receber via props o estado e a função set de alteração do mesmo, logo, Campo nome recebe estado nome e CampoEmail recebe email. Em cada componente deve ser ter feito um campo input para seu  respectivo valor que irá alterar o estado e mostrar o valor atualizado. 
+Use o Callback para impedir a rendenrização desnecessária de ambos os componentes. 
