@@ -1,0 +1,64 @@
+*{
+    margin:0;
+}
+
+body{
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    font-weight:200;
+    font-size:1.4em;
+}
+
+.red{
+    font-weight:700;
+    color: red;
+}
+
+span{
+    font-weight:200;
+    font-size:0.6em;
+}
+
+input{
+    width:50%;
+    font-weight:200;
+    font-size:1em;
+    margin:10px 0;
+
+}
+
+button{
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px 25px;
+    border: none;
+    background-color: #0092c3;
+    cursor: pointer;
+    font-size: 2em;
+    color: #fff;
+}
+
+button:hover{
+    background:#000020;
+}
+
+.center{
+    padding: 50px 0px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    text-align:center;
+
+}
+
+.App{
+    display: flex;
+    height: 100vh;
+}
+
