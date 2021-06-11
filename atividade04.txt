@@ -1,0 +1,119 @@
+create database novoProjeto ( criar novo banco de dados)
+
+//a)Banco mundoPokemon
+
+create database mundoPokemon
+
+//b)Tabela Pokemon
+
+create table Pokemon( 
+id int primary Key auto_increment, 
+codnome varchar (60), 
+tipo varchar (60), 
+nivel int (2) 
+)
+
+
+//c)Insira:
+INSERT INTO `pokemon`(`id`, `codnome`, `tipo`, `nivel`) 
+VALUES 
+("0","Magma","Lava","120"),
+("0","Alakazan","Mistico","96"),
+("0","Blastoise","Agua","72"),
+("0","Charizard","Fogo","99"),
+("0","Charmander","Fogo","36"),
+("0","Dragonite","Ar","89"),
+("0","Arcanine","Fogo","75"),
+("0","NineTiles","Fogo","67"),
+("0","Dito","Normal","5"),
+("0","Eve","Normal","15"),
+("0","Squirtle","Agua","23"),
+("0","Bulbassauro","Grama","31"),
+("0","Onix","Pedra","45")
+
+//Inserindo extras
+
+INSERT INTO `pokemon`(`id`, `codnome`, `tipo`, `nivel`) 
+VALUES 
+("0","Magma","Lava","120"),
+("0","Alakazan","Mistico","96")
+
+//d)Selecione todos os pokemons.
+
+SELECT * FROM `pokemon` WHERE `id`
+
+//e)Selecione o nome e tipo dos pokemons aquáticos.
+
+SELECT `codnome`, `tipo` FROM `pokemon` WHERE tipo="Agua" 
+
+//f)Selecione o nome e o nível dos pokemons normais.
+
+SELECT `codnome`, `nivel` FROM `pokemon` WHERE tipo="Normal"
+
+//g) Selecione o nome e tipo do pokemon com id 10.
+
+SELECT `codnome`, `tipo` FROM `pokemon` WHERE `id`= 10
+
+//h)Selecione o nome e nível dos pokemons com nível acima de 50.
+
+SELECT `codnome`, `nivel` FROM `pokemon` WHERE `nivel`> 50
+
+//i) Selecione o tipo dos pokemons com nível abaixo de 30.
+
+SELECT `tipo` FROM `pokemon` WHERE `nivel`< 30
+
+j) Selecione o nome dos pokemons com tipo fogo ou agua.
+
+SELECT `codnome` FROM `pokemon` WHERE `tipo`= "Fogo" OR "Agua"
+
+k)Selecione tudo dos pokemons com nível acima de 80 ou do tipo grama.
+
+SELECT `id`, `codnome`, `tipo`, `nivel` FROM `pokemon` WHERE `nivel`>80 OR `tipo`="Grama" 
+
+codnome
+("0","Magma","Lava","120"),
+("0","Alakazan","Mistico","96"),
+("0","Blastoise","Agua","72"),
+("0","Charizard","Fogo","99"),
+("0","Charmander","Fogo","36"),
+("0","Dragonite","Ar","89"),
+("0","Arcanine","Fogo","75"),
+("0","NineTiles","Fogo","67"),
+("0","Dito","Normal","5"),
+("0","Eve","Normal","15"),
+("0","Squirtle","Agua","23"),
+("0","Bulbassauro","Grama","31"),
+("0","Onix","Pedra","45")
+
+
+
+http://localhost:3003/os/inserirUsuario
+
+14 – Magma – Lava – 120
+
+15 – Alakazan – Mistico – 96
+
+	
+"Ratata","Terra","12"
+
+"Blastoise","Agua","72"
+
+"Charizard","Fogo","99"
+
+"Charmander","Fogo","36"
+
+"Dragonite","Ar","89"
+
+"Arcanine","Fogo","75"
+
+"NineTiles","Fogo","67"
+
+"Dito","Normal","5"
+
+"Eve","Normal","15"
+
+"Squirtle","Agua","23"
+
+"Bulbassauro","Grama","31"
+
+"Onix","Pedra","45"
